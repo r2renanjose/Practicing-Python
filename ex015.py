@@ -1,0 +1,5 @@
+mod = input('Qual o modelo alugado? ')
+dias = int(input('Quantos dias de locação? '))
+km = float(input('Quantos KM rodados? '))
+vl = (dias * 105) + (km * 0.45)
+print('O total a pagar pelo {} alugado é R$ {:.2f} \nsendo R$ {:.2f} pelos dias e R$ {:.2f} pelos KM rodados'.format(mod, vl, dias * 105, km * 0.45))
